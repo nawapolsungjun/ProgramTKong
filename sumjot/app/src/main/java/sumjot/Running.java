@@ -44,10 +44,10 @@ public class Running {
     public static void main(String[] args) {
         Running runner = new Running(60);
 
-        runner.increaseSpeed();
-        runner.run(30);
+        runner.increaseSpeed(); 
+        runner.run(30); 
 
-        System.out.println("ระยะทางทั้งหมด: " + runner.getTotalDistance() + " กม.");
-        System.out.println("แคลอรี่ทั้งหมด: " + runner.getTotalCal() + " กิโลแคลอรี่");
+        System.out.println(" " + runner.getTotalDistance() + " ");
+        System.out.println(" " + runner.getTotalCal() + " ");
     }
 }
