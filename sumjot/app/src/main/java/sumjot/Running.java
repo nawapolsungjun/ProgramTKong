@@ -44,9 +44,9 @@ public class Running {
     public static void main(String[] args) {
         Running runner = new Running(60);
 
-        runner.increaseSpeed(); 
+        runner.decreaseSpeed(); 
         runner.run(30); 
-
+        
         System.out.println(" " + runner.getTotalDistance() + " ");
         System.out.println(" " + runner.getTotalCal() + " ");
     }
